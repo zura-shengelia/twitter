@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* background-img */
+.background-img {
+    width: 60%;
+    background-image: url("./img/back-twitter\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1;
+}
+
+/* background-img end*/
+.log-in-cell {
+    width: 40%;
+    padding: 30px;
+    align-self: center;
+}
+
+/* log-in header*/
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.header>img {
+    width: 50px;
+    height: 41px;
+    margin-bottom: 30px;
+}
+
+.header>.title {
+    font-size: 84px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+/* log-in header end*/
+/* log-in content*/
+.content {
+    width: 403px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.join-twitter {
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.content>button {
+    background-color: transparent;
+    border-color: #f1f4f6;
+    border-radius: 30px;
+    border-style: solid;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.content>button>img {
+    margin-right: 10px;
+}
+
+.phone-email {
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    border-style: solid;
+    border-color: #f1f4f6;
+    border-radius: 30px;
+    padding: 14px 0px 14px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.description>a {
+    color: #1E97E1;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
+
+.description>a:hover {
+    text-decoration: underline;
+}
+
+/* log-in content end*/
+/* navigation*/
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation>a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 7px;
+}
+
+.navigation>a:hover {
+    text-decoration: underline;
+}
+
+/* navigation end*/
